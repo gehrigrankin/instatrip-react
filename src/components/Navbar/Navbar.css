@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Passion+One');
+
+.brand-logo { 
+    font-family: 'Passion One';
+    letter-spacing: .75px;
+    font-size: 34px !important;
+}
+
+.input-field * {
+    margin-top: -.5rem;
+}
+
+.input-field label.active {
+    color: #42a5f5 !important;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]){
+    border-bottom: 1px solid #42a5f5;
+    box-shadow: 0 1px 0 0 #42a5f5;
+}
