@@ -1,19 +1,17 @@
 import React, { Component } from "react";
 
-import './Home.css'
-
-class Home extends Component {
+class City extends Component {
     state = {
         city: "Phoenix"
     }
 
     render(){
         return (
-            <div className="Home">
-                <p>Home</p>
+            <div className="City">
+                <p>City</p> 
             </div>
         )
     }
 }
 
-export default Home;
+export default City;

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 import './Navbar.css'
 
@@ -7,7 +8,7 @@ const Navbar = (props) => {
         <div className='Navbar'>
             <nav>
                 <div className="nav-wrapper indigo darken-3">
-                    <a href="#!" className="brand-logo center">Insta<span className="blue-text text-lighten-1">Trip</span></a>
+                    <Link to="/" className="brand-logo center">Insta<span className="blue-text text-lighten-1">Trip</span></Link>
                     <ul className="left hide-on-med-and-down">
                         <li id="search-li">
                             <form className="input-field">
@@ -21,6 +22,9 @@ const Navbar = (props) => {
                             </div> */}
 
                         </li>
+                    </ul>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><Link to="/city">Cities</Link></li>
                     </ul>
                 </div>
             </nav>

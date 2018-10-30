@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster|Passion+One');
 
+.nav-wrapper {
+    padding: 0 5vw;
+}
+
 .brand-logo { 
     font-family: 'Passion One';
     letter-spacing: .75px;

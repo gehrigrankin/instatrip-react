@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
 import './App.css';
 
 import Navbar from './components/Navbar'
+import { Home, City, NoMatch } from './pages';
 
 class App extends Component {
   render() {
@@ -10,7 +12,7 @@ class App extends Component {
       <Router>
         <div className="App">
           <Navbar />
-
+          
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/city" component={City} />
