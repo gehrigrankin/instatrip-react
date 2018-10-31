@@ -23,7 +23,7 @@ const Navbar = (props) => {
 
                         </li>
                     </ul>
-                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <ul id="nav-mobile" className="right hide-on-med-and-down">
                         <li><Link to="/city">Cities</Link></li>
                     </ul>
                 </div>
